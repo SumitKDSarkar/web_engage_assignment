@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Web Engage | Talk To Us</title>
+        <link rel="stylesheet" href="./styles/index.css" />
+        <link rel="icon" href="./assets/pageicon.png" />
+    </head>
+<body>
+    <div id="container">
+        <div id="left"></div>
+        <div id="right">
+            <div class="logo">
+               
+            </div>
+            <div>
+                <h1>Get a Free Consultation</h1>
+                <h2>with an expert</h2>
+            </div>
+            <div class="form">
+            <div class="mailBox">
+                <input id="email" name="email" type="email" placeholder="Enter your email" oninput="setEmail()" required >
+            </div>
+            <div class="phoneNumber">
+                <select id="countryCode" onchange="setCode()" >
+                    <option value="+91">+91</option>
+                    <option value="+92">+92</option>
+                    <option value="+93">+93</option>
+                    <option value="+94">+94</option>
+                    <option value="+95">+95</option>
+                    <option value="+1">+1</option>
+                    <option value="+2">+2</option>
+                    <option value="+3">+3</option>
+                    <option value="+4">+5</option>
+                    <option value="+6">+6</option>
+                </select>
+                <input id="number" name="number" type="number" placeholder="Enter your mobile" oninput="setNumber()" required >
+            </div>
+          
+                <button onclick="submit()" >Talk to us</button>
+       
+        </div>
+        </div>
+    </div>
+
+
+    <script src="./scripts/index.js"></script>
+</body>
+</html>
+
+
