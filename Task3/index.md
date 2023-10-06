@@ -1,4 +1,4 @@
-**approch to solve this issue is to:**
+**My approch to solve this issue is to:**
 
 1. **Approach to Task 1 (Low-Priority Customer):**
 
@@ -35,7 +35,7 @@ Thank you for your cooperation.
 Best regards,
 Sumit Kumar Dey Sarkar.
 
-3) **Communication with the Customer (Delay Notification Email):**
+4) **Communication with the Customer (Delay Notification Email):**
 
 For the low-priority customer in Task 1, I would send an email to inform them about the delay and the extension request:
 
